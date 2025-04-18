@@ -3,7 +3,7 @@ def find_winner(participants):
     highest_score=-1
     
 
-    for name,score in participants.items():
+    for name, score in participants.items():
         if score>highest_score:
             highest_score=score
             winner=name
@@ -21,6 +21,7 @@ for i in range(n):
     participants[name]=score
     
 winner_name, winner_score=find_winner(participants)
+
 print("\n winner of the Day ")
 print(f"name:{winner_name}")
 print(f"score:{winner_score}")
