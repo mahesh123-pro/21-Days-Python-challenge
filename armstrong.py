@@ -1,4 +1,4 @@
-num=int(input("Enter the your armstrong number: "))
+num=int(input("Enter the armstrong number: "))
 orignial = num
 sum =0
 n=len(str(num))
